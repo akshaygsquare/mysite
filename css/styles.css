@@ -31,18 +31,25 @@ h3{
 
 .bottom-container{
     padding-top: 25px;
-    background-color: rgb(0, 165, 129);
+    background-color: hsl(162, 89%, 93%);
 }
 
 .footer-link{
     
     margin:20px;
     font-family: 'Montserrat', sans-serif;
+    color:rgb(0, 194, 152) ;
+    text-decoration: none;
 
 }
+
+.footer-link:hover{
+    color: rgb(14, 117, 0);
+}
+
 .copyright{
     font-size: 0.8em;
-    color: white;
+    color: rgb(0, 114, 114);
 }
 
 .skill-row{
@@ -74,18 +81,27 @@ h3{
 
 .bottom-cloud{
     position: absolute;
-    left: 300px;
-    bottom:300px;
+    left: 20%;
+    bottom:50%;
 }
 
 .top-cloud{
     position: absolute;
-    right: 300px;
-    top: 50px; 
+    right: 25%;
+    top: 8%; 
+}
+
+.mountain-img{
+width: 65%;
 }
 
 .profile{
     margin-top: 20px;
+}
+
+.profile{
+    width: 50%;
+    margin: 20px auto 0;
 }
 
 hr{
@@ -93,6 +109,7 @@ hr{
     border-width: 5px 0 0 0;
     width: 5%;
     color: grey;
+    margin: 20px auto;
     
 }
 
