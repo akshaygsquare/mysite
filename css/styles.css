@@ -53,7 +53,7 @@ h3{
 }
 
 .skill-row{
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
     text-align: left;
     line-height: 2;
@@ -98,7 +98,7 @@ h3{
 }
 
 .mountain-img{
-width: 65%;
+width: 95%;
 }
 
 
@@ -147,4 +147,8 @@ hr{
     background-image: -o-linear-gradient(top, #2bc4b7, #0ecca3);
     background-image: linear-gradient(to bottom, #2bc4b7, #0ecca3);
     text-decoration: none;
+  }
+
+  .copyright{
+      margin-bottom: 0;
   }
